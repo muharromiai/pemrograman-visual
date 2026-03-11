@@ -150,7 +150,7 @@ class KonversiSuhu(QWidget):
         elif satuan == "Reamur":
             hasil = celsius * 4/5
 
-        teks_hasil = f"Celsius = {hasil:.2f} {satuan}"
+        teks_hasil = f"{celsius:g} Celsius = {hasil:.2f} {satuan}"
         self.res_hasil.setText(teks_hasil)
 
     def tampilkan_error(self, pesan):
@@ -161,4 +161,5 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = KonversiSuhu()
     window.show()
+
     sys.exit(app.exec())
