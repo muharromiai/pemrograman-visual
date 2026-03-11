@@ -1,3 +1,6 @@
+# NAMA : Muharromi Ali Ilham
+# NIM  : F1D02410082
+# Kelas: Pemrograman Visual C
 import sys
 from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton, QFrame
 
@@ -163,3 +166,4 @@ if __name__ == "__main__":
     window.show()
 
     sys.exit(app.exec())
+
